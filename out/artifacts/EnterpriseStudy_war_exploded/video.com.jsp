@@ -469,6 +469,9 @@
                                     var vid = document.getElementById("get_video");
                                     function getCurTime() {
                                         alert(vid.currentTime);
+                                        $.ajax({
+                                            url:""
+                                        })
                                     }
                                     function setCurTime() {
                                         vid.currentTime=10;
